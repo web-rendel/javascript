@@ -34,3 +34,28 @@
 //        ( name == 'manager' ) ? 'Hello' :
 //        ( name == '' ) ? 'No login' : '';
 //alert ( msg );
+
+
+//Lesson 3
+
+// var browserIE = 'IE';
+// var browserChrome = 'Chrome';
+// var browserSafari = 'Safari';
+// var browserOpera = 'Opera';
+//
+// var userBrowser = prompt('Введите название браузера');
+//
+// if( userBrowser == browserIE ) {
+//   alert( 'О, да у вас IE!' );
+// } else if( userBrowser == browserChrome ) {
+//   alert( 'Браузер норм!' );
+// } else if( userBrowser == browserSafari ) {
+//   alert( 'Браузер норм!' );
+// } else if( userBrowser == browserOpera ) {
+//   alert( 'Браузер норм!' );
+// } else {
+//   alert( 'Кто здесь?' );
+// }
+
+
+}
