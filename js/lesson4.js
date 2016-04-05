@@ -21,7 +21,6 @@
 
 
 function  upperFirst(str){
-    var first = str.charAt(0);
-    console.log(first.toUpperCase() + str.slice(1));
+    console.log(str[0].toUpperCase() + str.slice(1));
 }
 upperFirst('welcome');
