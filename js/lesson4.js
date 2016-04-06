@@ -20,7 +20,21 @@
 //superrandom2(20);
 
 
-function  upperFirst(str){
-    console.log(str[0].toUpperCase() + str.slice(1));
+//function  upperFirst(str){
+//    console.log(str[0].toUpperCase() + str.slice(1));
+//}
+//upperFirst('hello');
+
+/* ****homework**** */
+
+//work1
+
+function checkSpam(str) {
+    var lowerStr = str.toLowerCase();
+
+    return !!(~lowerStr.indexOf('viagra') || ~lowerStr.indexOf('xxx'));
 }
-upperFirst('welcome');
+
+console.log( checkSpam('buy ViAgRA now') );
+console.log( checkSpam('free xxxxx') );
+console.log( checkSpam("innocent rabbit") );
