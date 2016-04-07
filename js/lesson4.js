@@ -27,14 +27,26 @@
 
 /* ****homework**** */
 
-//work1
-
+// ****work1
+// разобрать задание
 function checkSpam(str) {
     var lowerStr = str.toLowerCase();
 
     return !!(~lowerStr.indexOf('viagra') || ~lowerStr.indexOf('xxx'));
 }
 
-console.log( checkSpam('buy ViAgRA now') );
+console.log( checkSpam('buy [ViAgRA] now') );
 console.log( checkSpam('free xxxxx') );
 console.log( checkSpam("innocent rabbit") );
+
+
+// ****work1
+//function dots (str){
+//    if ( str.length <= 20 ){
+//        console.log(str);
+//    } else {
+//        console.log(str.substring(0,20) + '...');
+//
+//    }
+//}
+//dots('hello world hello world hello world hello world hello world');
